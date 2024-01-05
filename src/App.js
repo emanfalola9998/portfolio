@@ -139,7 +139,9 @@ function App() {
                       <li><b>FullStack Application</b></li>
                       <li><b>Skills:</b>TypeScript, Bootstrap(CSS), HTML, NodeJs, ExpressJs, PostgreSQL </li>
                       <li><b>Inspiration: </b>Wanted to build a fullstack app to showcase what I have learnt over the years.</li></ul>
-                    <button type="button" className="w-100 btn btn-lg btn-dark">Visit Site</button>
+                    <a href="https://pastebinretro.netlify.app" class="w-100 btn btn-lg btn-dark">
+                      Visit Site
+                    </a>
                   </div>
                 </div>
               </div>
@@ -156,8 +158,8 @@ function App() {
                     </ul>
                     <a href="https://tfltransportlines.netlify.app" class="w-100 btn btn-lg btn-dark">
                       Visit Site
-                    </a>                  
-                    </div>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="col">
