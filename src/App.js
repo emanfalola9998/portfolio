@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import codingImage from './images/Developer.webp'
 
@@ -13,7 +12,7 @@ function App() {
             <div className="row flex-lg-row-reverse align-items-center g-5 pt-5">
               <div className="col-10 col-sm-8 col-lg-6">
                 <img src={codingImage} className="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200"
-                  loading="lazy"/>
+                  loading="lazy" />
               </div>
               <div className="col-lg-6">
                 <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Emmanuel Falola</h1>
@@ -96,7 +95,8 @@ function App() {
           <div className="my-5">
             <div className="p-5 text-center bg-body-tertiary">
               <div className="container py-5">
-                <h2 className="text-body-emphasis">"I am a FullStack Developer that has a huge passion for anything Web and Mobile Develoment! Please feel free to reach out"</h2>
+                <h2 className="text-body-emphasis">"Love the tfl app helps me with my journeys"</h2>
+                <i>Esther Olaniyan - 2023</i>
                 {/* <img className="profile-img mt-5" src="./images/dog-img.jpg" alt="dog image" /> */}
 
               </div>
@@ -154,8 +154,10 @@ function App() {
                       <li><b>Skills:</b> APIs, TypeScript, HTML, CSS</li>
                       <li><b>Inspiration:</b>  Wanted local site for important travel information.</li>
                     </ul>
-                    <button type="button" className="w-100 btn btn-lg btn-dark">Visit Site</button>
-                  </div>
+                    <a href="https://quiet-nasturtium-64fff4.netlify.app/" class="w-100 btn btn-lg btn-dark">
+                      Visit Site
+                    </a>                  
+                    </div>
                 </div>
               </div>
               <div className="col">
@@ -167,7 +169,7 @@ function App() {
                     {/* <h1 className="card-title pricing-card-title"><small className="text-body-secondary fw-light">/mo</small></h1> */}
                     <ul className="list-unstyled mt-3 mb-4">
                       <li><b>Frontend Application</b></li>
-                      <li><b>Skills:</b>APIs, TypeScript, HTML, CSS</li>
+                      <li><b>Skills: </b>APIs, TypeScript, HTML, CSS</li>
                       <li><b>Inspiration:</b> Passion project I am a huge NBA fan.</li>
                     </ul>
                     <button type="button" className="w-100 btn btn-lg btn-dark">Visit Site</button>
@@ -183,7 +185,7 @@ function App() {
             <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
               <div className="col mb-3">
 
-                <p className="text-body-secondary">©EmmanuelFalolaDev</p>
+                <p className="text-body-secondary">©FullWebSolutions (FWS)</p>
               </div>
 
               <div className="col mb-3">
@@ -191,18 +193,18 @@ function App() {
               </div>
 
               {/* <div className="col mb-3"> */}
-                {/* <h5>Contact</h5> */}
-                {/* <ul className="nav flex-column"> */}
-                  {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Linkedin</a></li>
+              {/* <h5>Contact</h5> */}
+              {/* <ul className="nav flex-column"> */}
+              {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Linkedin</a></li>
                   <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Github</a></li> */}
-                  {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li> */}
-                  {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li> */}
-                  {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li> */}
-                {/* </ul> */}
+              {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li> */}
+              {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li> */}
+              {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li> */}
+              {/* </ul> */}
               {/* </div> */}
 
               {/* <div className="col mb-3"> */}
-                {/* <h5>Section</h5>
+              {/* <h5>Section</h5>
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
                   <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
@@ -215,11 +217,10 @@ function App() {
               <div className="col mb-3">
                 <h5>Contact</h5>
                 <ul className="nav flex-column">
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Linkedin</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Github</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Email</a></li>
-                  {/* <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
-                  <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li> */} 
+                  <li className="nav-item mb-2"><a href="https://www.linkedin.com/in/emmanuel-falola-999613132/" className="nav-link p-0 text-body-secondary">Linkedin</a></li>
+                  <li className="nav-item mb-2"><a href="https://github.com/emanfalola9998" className="nav-link p-0 text-body-secondary">Github</a></li>
+                  <li className="nav-item mb-2"><a href="mailto:emmanuelfalola9998@gmail.com" className="nav-link p-0 text-body-secondary">Email</a></li>
+
                 </ul>
               </div>
             </footer>
