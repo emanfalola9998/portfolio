@@ -95,7 +95,7 @@ function App() {
           <div className="my-5">
             <div className="p-5 text-center bg-body-tertiary">
               <div className="container py-5">
-                <h2 className="text-body-emphasis">"Love the tfl app helps me with my journeys"</h2>
+                <h2 className="text-body-emphasis">"I've been using the TFL app and for me its the best!"</h2>
                 <i>Esther Olaniyan - 2023</i>
                 {/* <img className="profile-img mt-5" src="./images/dog-img.jpg" alt="dog image" /> */}
 
@@ -172,10 +172,11 @@ function App() {
                     <ul className="list-unstyled mt-3 mb-4">
                       <li><b>Frontend Application</b></li>
                       <li><b>Skills: </b>APIs, TypeScript, HTML, CSS</li>
-                      <li><b>Inspiration:</b> Passion project I am a huge NBA fan.</li>
+                      <li><b>Inspiration:</b> Huge NBA fan!.</li>
                     </ul>
-                    <button type="button" className="w-100 btn btn-lg btn-dark">Visit Site</button>
-                  </div>
+                    <a href="https://nbaonstats.netlify.app" class="w-100 btn btn-lg btn-dark">
+                      Visit Site
+                    </a>                  </div>
                 </div>
               </div>
             </div>
