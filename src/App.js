@@ -174,7 +174,7 @@ function App() {
                       <li><b>Skills: </b>APIs, TypeScript, HTML, CSS</li>
                       <li><b>Inspiration:</b> Huge NBA fan!.</li>
                     </ul>
-                    <a href="https://nbaonstats.netlify.app" class="w-100 btn btn-lg btn-dark">
+                    <a href="https://emanfalola9998.github.io/tfl-vite" class="w-100 btn btn-lg btn-dark">
                       Visit Site
                     </a>                  </div>
                 </div>
